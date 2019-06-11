@@ -10,7 +10,7 @@ html {
 }
 body {
   font-family: 'Raleway', Avenir, sans-serif;
-  color: #f5f5dc;
+  color: #fff;
   background-color: #202020;
 }
 body a {
@@ -18,7 +18,7 @@ body a {
   text-decoration: none;
 }
 body a:hover {
-  color: #fe6f5e;
+  color: #8eafcd;
 }
 
 /*utils*/
@@ -28,27 +28,29 @@ body a:hover {
 }
 .c-items {
   align-items: center;
+  display: flex;
 }
 .c-content {
   justify-content: center;
+  display: flex;
 }
 .bkgcream {
-  background-color: #f5f5dc;
+  background-color: #fff;
 }
 .bkgbrown {
-  background-color: #83362d;
+  background-color: #0b4d64;
 }
 .bkgred {
-  background-color: #fe6f5e;
+  background-color: #8eafcd;
 }
 .bkgblack {
   background-color: #202020;
 }
 .bkgpeach {
-  background-color: #ffe4c4;
+  background-color: #dfdde8;
 }
 .padding {
-  padding: 0 70px;
+  padding: 0 150px;
 }
 
 /*bar*/
@@ -60,8 +62,11 @@ body a:hover {
 /*nav*/
 
 .nav-bar h2 {
+  padding: 30px 10px;
+}
+.nav-bar a {
   font-size: 20px;
-  margin:0 20px 0;
+  color: #dfdde8;
 }
 .nav-bar img {
   width: 50px;
@@ -140,7 +145,7 @@ body a:hover {
 
 .script-text {
   font-family: 'Courgette', Avenir, sans-serif;
-  color: #fe6f5e;
+  color:#8eafcd;
 }
 .home .script-text {
   height: 400px;
@@ -171,7 +176,7 @@ body a:hover {
 .timeline-box h3 {
   font-size: 16px;
   font-weight: bold;
-  color: #fe6f5e;
+  color: #8eafcd;
   border-top: 2px solid #202020;
 }
 .timeline-box img:hover{
@@ -237,14 +242,14 @@ body a:hover {
 .footer {
   font-size: 12px;
   padding: 10px;
-  color: #fe6f5e;
+  color: #8eafcd;
 }
 .footer a {
-  color: #f5f5dc;
+  color: #fff;
   text-decoration: none;
   padding: 0 10px;
 }
 .footer a:hover {
   text-decoration: underline;
-  color: #fe6f5e;
+  color: #8eafcd;
 }
