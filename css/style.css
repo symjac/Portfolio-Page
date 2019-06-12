@@ -34,19 +34,19 @@ body a:hover {
   justify-content: center;
   display: flex;
 }
-.bkgcream {
+.bkgwhite {
   background-color: #fff;
 }
-.bkgbrown {
+.bkgdark {
   background-color: #0b4d64;
 }
-.bkgred {
+.bkgmed {
   background-color: #8eafcd;
 }
 .bkgblack {
   background-color: #202020;
 }
-.bkgpeach {
+.bkglight {
   background-color: #dfdde8;
 }
 .padding {
